@@ -36,7 +36,7 @@ export default function Home() {
         onClick={() => setselectedColor("green")}
         className={"light green" + (selectedColor === "green" ? " glow" : "")
         }></div>
-      <button onClick={changeColor}></button>
+      <button onClick={changeColor}>PRESS</button>
     </div>
   );
 }
